@@ -1,0 +1,18 @@
+button:hover {
+    background-color: red;
+}
+
+canvas {
+    animation-name: cchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cchange {
+    0%{box-shadow: 2px 2px 38px red;}
+    20%{box-shadow: 2px 2px 38px yellow;}
+    40%{box-shadow: 2px 2px 38px green;}
+    60%{box-shadow: 2px 2px 38px blue;}
+    80%{box-shadow: 2px 2px 38px indigo;}
+    100%{box-shadow: 2px 2px 38px violet;}
+}
